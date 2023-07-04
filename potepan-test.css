@@ -1,0 +1,305 @@
+@media screen and (min-width:769px){
+.background-img{
+  background-image: url(//camp.potepan.com/wp-content/themes/potepancamp/assets/styles/../images/home/first-view/top-hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+}
+
+@media screen and (max-width:769px){
+ .background-img{
+    background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/top-hero-sp.jpg.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
+.header{
+  display:flex;
+  justify-content:space-between;
+  padding:20px;
+  align-items:center;
+}
+
+.banner{
+  width:50px;
+}
+.banner:hover{
+  opacity: 0.5;
+}
+
+.content{
+  margin-right:45px;
+}
+.content a{
+  text-decoration: none;
+  color:black;
+  font-weight:bold;
+}
+.content:hover{
+  opacity: 0.5;
+}
+
+.interview{
+  margin-right:45px;
+}
+.interview a{
+  text-decoration: none;
+  color:black;
+  font-weight:bold;
+}
+.interview:hover{
+  opacity:0.5;
+}
+
+.faq{
+  margin-right:45px;
+}
+.faq a{
+  text-decoration: none;
+  color:black;
+  font-weight:bold;
+}
+.faq:hover{
+  opacity: 0.5;
+}
+
+.recruit{
+  margin-right: 45px;
+}
+.recruit a{
+  text-decoration: none;  
+  color:black;
+  font-weight:bold;
+}
+.recruit:hover{
+  opacity: 0.5;
+}
+
+.document{
+  margin-right: 45px;
+}
+.document a{
+  text-decoration: none;
+  color:black;
+  font-weight:bold;
+}
+.document:hover{
+  opacity: 0.5;
+}
+
+.contact{
+  border:none;
+  background-color:#f79214;
+  border-radius: 38px;
+  line-height:40px;
+  padding:0 20px;
+}
+.contact a{
+  text-decoration: none;
+  color:white;
+}
+.contact:hover{
+  opacity: 0.5;
+}
+
+.Contents{
+  display:flex;
+  margin:0 0 0 auto;
+  text-align:center;
+  list-style:none;
+  font-size:12px;
+}
+
+input{
+  display:none;
+}
+
+@media screen and (max-width:1080px){
+label{
+  position:relative;
+  right:30px;
+}
+
+span,span::before,span::after{
+  display:block;
+  width:30px;
+  height:3px;
+  background-color:black;
+  content:"";
+  position: absolute;
+  }
+span::before{
+  top:8px;
+  }
+span::after{
+  top:16px;
+  }
+}
+
+@media screen and (max-width:1080px){
+.header{
+  width:100%;
+  height:60px;
+  background-color:white;
+  padding-top:20px;
+  padding-bottom:20px;
+  box-sizing: border-box;
+  position:fixed;
+  top:0;
+  left:0;
+  align-items:center;
+  z-index:9999;
+}
+.background-img{
+  padding-top:10%;
+}
+}
+
+@media screen and (max-width:1080px){
+  .Contents {
+    display:none;
+  }
+}
+
+.Outline{
+  display: flex;
+  font-size:25px;
+  text-align:center;
+}
+
+@media screen and (max-width:769px){
+  .Outline{
+    margin-top: 200px;
+    display: flex;
+    justify-content:center;
+    font-size:18px;
+  }
+}
+
+.merits{
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+@media screen and (max-width:769px){
+.merits{
+  display: flex;
+  align-items:center;
+  max-width: 100%;
+  height: auto;
+  }
+}
+
+.counseling{
+  border:none;
+  border-radius: 38px;
+  background-color:#f79214;
+  line-height:60px;
+  width:300px;
+  text-align:center;
+}
+.counseling a{
+  color:white;
+  text-decoration: none;
+}
+.counseling:hover{
+  opacity: 0.5;
+}
+
+.document2{
+  border:solid;
+  border-radius:38px;
+  border-color:#e0e0e0;
+  line-height:60px;
+  width:200px;
+  text-align:center;
+  background-color:white;
+}
+.document2 a{
+  text-decoration: none;
+  font-weight:bold;
+  color:black;
+}
+.document2:hover{
+  opacity: 0.5;
+}
+
+@media screen and (max-width:769px){
+.document2{
+  display: none;
+}
+.buttons{
+  display: flex;
+  justify-content:center;
+}
+}
+
+.buttons{
+  display: flex;
+}
+
+.firstview{
+    max-width: 1140px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.attention{
+  color:#a2a2a4;
+  list-style:none;
+  font-size:12px;
+  margin-top:80px;
+}
+
+.background-orange{
+  background-color:#f79214;
+}
+
+.flex{
+  display: flex;
+    
+    padding:20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:100px;
+    flex-direction: column;
+    align-items:center;
+}
+
+.video{
+    width:80%;
+}
+
+@media screen and (min-width:1024px){
+  .flex{
+  display: flex;
+  align-items:center;
+  flex-direction:row;
+  }
+  .video {
+    width:50%;
+  }
+  .title{
+    margin-left:20px;
+  }
+}
+
+.title{
+  color:white;
+  font-size:20px;
+}
+
+.explain{
+  font-size:18px;
+}
+
+.aboutstudy{
+  margin-top:10px;
+}
+.aboutstudy a{
+  text-decoration: none;
+  color:white;
+}
